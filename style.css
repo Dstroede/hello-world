@@ -12,28 +12,29 @@ body {
     height: 140px;
     margin: auto;
     border:#ee2e31;
-    color: #f4c095;
-    padding: 20px;
+    background-color:#f4c095;
+    color: black;
+    padding: 10px;
   }
 
   header li {
     display:inline-block;
   /*   Make it look like buttons */
-    background-color: #1d7874;
-    border: 1px solid black;
+    background-color: black;
+    border: 2px solid #ee2e31;
     border-radius: 25px;
     margin: 5px;
     padding: 5px;
   }
 
   li a {
-    color: inherit;
+    color: #1d7874;
     text-decoration:none ;
   }
 
   header img {
     float: left;
-    height: 140px;
+    height: 10px;
   
   }
 
@@ -65,12 +66,23 @@ body {
 
   figure img {
     display: center;
-     height:300px;
+    float: left;
+    border:
+     height: 300px;
       width:auto;
   }
 
   article {
+    width:80%;
+    height: 300px;
+    width:auto;
+    margin: auto;
+    border:#ee2e31;
+    background-color:black;
+    color: #f4c095;
+    padding: 10px;
     display: center;
+    float: right;
      height:300px;
       width:auto;
   }
