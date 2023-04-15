@@ -25,6 +25,8 @@ body {
   header img {
     float: left;
     text-align: left;
+    height: auto;
+    width: auto;
   }
 
   header nav {
@@ -76,7 +78,6 @@ body {
     display: inline-block;
     width:40%;
     margin: auto;
-    text-emphasis-style:;
     border:#ee2e31;
     color: #f4c095;
     vertical-align: top;
