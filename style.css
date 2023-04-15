@@ -1,101 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
-    height: 100%;
-    width: 100%;
-    background-color:black ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.545), rgba(0, 0, 0, 0.545)), url(Gym_Picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'sans serif';
   }
-  *{
-  /*   border: 1px solid black; */
-  /* header area */
-  }
+
   header {
-    width:80%;
+    width: 90%;
     height: 140px;
     margin: auto;
-    border:#ee2e31;
-    background-color:#f4c095;
-    color: black;
+    border: 5px thick #f4c09541;
+    border-radius: 23px;
+    color:#a42527;
     padding: 10px;
+    font-weight: 50px;
+  }
+
+  header img {
+    float: left;
+    text-align: left;
+  }
+
+  header nav {
+    float:right;
+    align-items: center;
+    display: flex;
   }
 
   header li {
     display:inline-block;
   /*   Make it look like buttons */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.648);
     border: 2px solid #ee2e31;
-    border-radius: 25px;
-    margin: 20px;
-    padding: 20px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    text-transform: uppercase;
   }
 
   li a {
-    color: #1d7874;
-    text-decoration:none ;
+    color: #72a298;
+    text-decoration: none;
   }
 
-  header img {
-    float: left;
-    height: 10px;
-  
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  header nav {
-    float:right;
-    color:#679289;
-    background-color: black;
-    border-color: #ee2e31;
-
-  }
 
   /* main area */
   main {
+    width: 90%;
+    margin: auto;
     border: 5px thick #679289;
-      border-radius: 23px;
-    color: #f4c095;
-    overflow: auto;
+    border-radius: 23px;
+    color: #f5bd8f;
+    background-color: #1d787432;
   }
 
   figure {
+     width: 40%;
      display: inline-block;
-    margin:10px;
-    padding:10px;
+     text-align: center;
+
   }
 
   figure img {
-    display: center;
-    float: left;
-    border:
-     height: 300px;
-      width:auto;
+    height: auto;
+    width:auto;
   }
 
   article {
     display: inline-block;
-    width:80%;
-    height: 300px;
-    width:auto;
+    width:40%;
     margin: auto;
+    text-emphasis-style:;
     border:#ee2e31;
-    background-color:black;
     color: #f4c095;
-    padding: 10px;
-    display: center;
-    float: right;
-     height:300px;
-      width:auto;
+    vertical-align: top;
+  
   }
-
+  article h2{
+    text-align: center;
+  }
+  p {
+    height: auto;
+    text-align: left;
+    width: 90%;
+  }
   /* footer area  */
   footer {
-      width:80%;
-    height: 140px;
+    width:80%;
     display: center;
+    text-align: center;
     margin: auto;
-    padding: 20px;
-    background-color: black;
     color: #f4c095;
     border: 5px  #1d7874;
     border-radius: 23px;
