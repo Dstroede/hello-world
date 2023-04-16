@@ -1,8 +1,8 @@
-alert("This content is only for humans...Are you human? (Y or N");{
+alert("This page is only for humans...Are you human? (Y or N");{
     let userGo = prompt("This content is only for humans...Are you human? (Y or N");
-    if(userGo = Y){
+    if(userGo == Y){
         document.write ("Let's take a look");
-    } else if(userGo != Y){
+    } else if(userGo == N){
         document.write ("Hello, robot. I suppose I can still show you my website.");
     }
 }
@@ -13,8 +13,8 @@ console.log(userName);
 document.write ("You ready to get after it "+ userName + "?");
 }
 
-alert("How many years of experience do you have in the gym?"); {
-let userAnswer = prompt("How many years of experience do you have in the gym?");
+alert("How many yrs of exp do you have in the gym?"); {
+let userAnswer = prompt("How many yrs of exp do you have in the gym?");
 if(userAnswer == 1){
     alert ("We've got a solid start! Lets take it to the next level");
 } else if(userAnswer < 1 ){
