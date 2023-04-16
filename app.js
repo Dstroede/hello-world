@@ -1,8 +1,9 @@
+let webPassword = "Y"
 let userGo = prompt("This is only for humans...Are you human? (Y or N)");
 console.log(userGo)
- if(userGo === "Y"){
- alert("Let's take a look");
- } While(userGo == "N"){
+ if(userGo === webPassword){
+ alert("Let's Get Started!");
+ } while(userGo === "N"){
 userGo= prompt("No robots here! Unless... Are you at least half human?");
 }
 let userName = prompt("What is your name?");
