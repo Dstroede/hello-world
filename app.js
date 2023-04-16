@@ -1,4 +1,4 @@
-let webPassword = "Y"
+let webPassword = ("Y");
 let userGo = prompt("This is only for humans...Are you human? (Y or N)");
 console.log(userGo)
  if(userGo === webPassword){
