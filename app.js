@@ -1,4 +1,4 @@
-let userName= prompt("What is your name?");
+let userName = prompt("What is your name?");
 console.log("Hi "+ userName + ", lets get fit!");
 document.write("Hi "+ userName + ", let's get fit!");
 
