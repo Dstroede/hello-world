@@ -1,5 +1,5 @@
 let userGo = prompt("This is only for humans...Are you human? (Y or N");
-console.log(userAnswer)
+console.log(userGo)
  if(userGo === "Y"){
  alert("Let's take a look");
  } else if(userGo == "N"){
