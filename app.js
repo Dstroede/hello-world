@@ -1,9 +1,9 @@
-let userGo = prompt("This is only for humans...Are you human? (Y or N");
+let userGo = prompt("This is only for humans...Are you human? (Y or N)");
 console.log(userGo)
  if(userGo === "Y"){
  alert("Let's take a look");
- } else if(userGo == "N"){
-alert("Hello, robot. I suppose I can still show you my website.");
+ } While(userGo == "N"){
+userGo= prompt("No robots here! Unless... Are you at least half human?");
 }
 let userName = prompt("What is your name?");
 console.log(userName);
