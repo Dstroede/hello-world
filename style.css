@@ -99,5 +99,8 @@ body {
     color: #f4c095;
     border: 5px  #1d7874;
     border-radius: 23px;
-  
+  }
+  a {
+    text-decoration: none;
+    color:#f4c095
   }

@@ -1,9 +1,10 @@
-let userName= prompt("What is your name?")
+let userName= prompt("What is your name?");
 console.log("Hi "+ userName + ", lets get fit!");
 document.write("Hi "+ userName + ", let's get fit!");
 
 
-let userAnswer = prompt("How many years of experience do you have in the gym?")
+let userAnswer = prompt("How many years of experience do you have in the gym?");
+
 if(userAnswer == 1){
     alert("We've got a solid start! Lets take it to the next level");
 } else if(userAnswer < 1 ){
