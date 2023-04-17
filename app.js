@@ -28,6 +28,6 @@ function webRanker (){
     userNum = prompt ("Please pick a number between 1-5");
   }
   for(let i = 0; i < userNum; i++){
-    document.write("<img src='star.png' alt='star ratings/>");
+    document.write("<img src='Star.png' alt='star ratings'/>");
   }
 }
