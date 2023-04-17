@@ -24,6 +24,10 @@ else if (userAnswer > 15 ){
 }
 function webRanker (){
   let userNum = prompt ("How many star would you give these prompts?");
-  for(let i = 0; i < userNum; i++)
-  document.write("src='star.png' alt=Star Rating")
+  while (userNum < 1 || userNum > 5) {
+    userNum = prompt ("Please pick a number between 1-5");
+  }
+  for(let i = 0; i < userNum; i++){
+    document.write("<img src='star.png' alt='star ratings/>");
+  }
 }
